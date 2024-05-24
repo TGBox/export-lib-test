@@ -25,13 +25,10 @@
     "rollup": "rollup -c --bundleConfigAsCjs",
     "version": "standard-version",
     "publish": "npm publish",
-    "publish:patch": "npm version patch && npm publish",
-    "publish:minor": "npm version minor && npm publish",
-    "publish:major": "npm version major && npm publish",
-    "prepublish:patch": "npm run prepublish",
-    "prepublish:minor": "npm run prepublish",
-    "prepublish:major": "npm run prepublish",
-    "prepublish": "npx tsc && npm run build && npm run rollup"
+    "publish:patch": "npm version patch && npm run publish",
+    "publish:minor": "npm version minor && npm run publish",
+    "publish:major": "npm version major && npm run publish",
+    "prepublish": "npm run rollup"
   },
   "eslintConfig": {
     "extends": [
