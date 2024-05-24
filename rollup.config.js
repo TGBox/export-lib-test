@@ -24,8 +24,7 @@ const rollupConfig = [
             resolve(),
             commonjs(),
             typescript({
-              useTsconfigDeclarationDir: true,
-              tsconfigOverride: { compilerOptions: { declaration: true, declarationDir: 'dist' } },
+              useTsconfigDeclarationDir: true
             }),
         ],
     }
