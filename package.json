@@ -71,5 +71,5 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "types/index.d.ts"
 }
