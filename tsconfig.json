@@ -7,7 +7,6 @@
       "esnext"
     ],
     "declaration": true,
-    "emitDeclarationOnly": true,
     "outDir": "dist",
     "declarationDir": "types",
     "allowJs": true,
