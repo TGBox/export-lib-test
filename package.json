@@ -71,5 +71,5 @@
   "files": [
     "dist"
   ],
-  "types": "types/index.d.ts"
+  "types": "types/components/ImportButton/ImportButton.types.d.ts"
 }
