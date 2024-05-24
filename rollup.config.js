@@ -19,6 +19,7 @@ const rollupConfig = [
 
             },
         ],
+        external: ['react', 'react-dom'],
         plugins: [
             resolve(),
             commonjs(),

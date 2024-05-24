@@ -68,5 +68,5 @@
   "files": [
     "dist"
   ],
-  "types": "types/components/ImportButton/ImportButton.types.d.ts"
+  "types": "dist/cjs/types"
 }
